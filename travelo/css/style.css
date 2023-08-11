@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.popular{
+    position: relative;
+}
+.item{
+    position: relative;
+}
+.subitem{
+    position: relative;
+    transition: 0.5s;
+    
+}
+.subitem img{
+    border-radius: 10%;
+}
+.subitem img:hover{
+    cursor: pointer;
+}
+.subitem button{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+}
+.subitem h5{
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    color: whitesmoke;
+    left: 40%;
+}
+.card-body:hover h5{
+    color: red;
+    /* box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3); */
+
+
+}
+.card-body:hover{
+    background-color:snow;
+}
+.trips h4:hover{
+    color: red;
+    cursor: pointer;
+}
+.btns:hover{
+    color: whitesmoke;
+    background-color: tomato;
+}
+.blog{
+    position: relative;
+    overflow: hidden;
+}
+.blog img{
+    transition: transform 3s;
+}
+.blog img:hover{
+    transform: scale(1.2);
+    
+
+}
